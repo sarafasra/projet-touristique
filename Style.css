@@ -46,7 +46,7 @@
     border-radius: 50px;
     align-items: center;
     text-align: center;
-    margin-top: 10px auto 0;
+    margin-top: 10px ;
     padding: 10px;
     box-shadow: 0 10px 25px black;
     justify-content: space-between;
@@ -122,6 +122,21 @@
     width:45px ;
     border: none;
     border-radius: 50%;
+}
+@media (max-width:991px) {
+    .search-box{
+        width:400px ;
+    }
+    .nav {
+        width: 200px;
+    }
+    .contnaire{
+        height: 80vh;
+    }
+    .bg1{
+        width: 600px;
+    }
+    
 }
 .tele{
     width: 30px;
@@ -236,7 +251,7 @@
 
 }
 
-.imagg h1{
+.imagg h2{
     color: white;
     position: relative;
     z-index: 1;
