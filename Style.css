@@ -1,0 +1,285 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+.logo{
+    display: flex;
+
+}
+.logo img{
+    width: 110px;
+    margin-left: 20px;
+    margin-top: 7px;
+
+}
+
+.user{
+  height: 40px;
+   
+    justify-content: left;
+}
+.contnaire{
+    background-image: url(caption_2.webp);
+   background-position: center;
+   height: 75vh;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+    padding-top: 165px;
+    color: white;
+}
+.h2{
+    text-align: center;
+    color: white;
+   
+}
+.input{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 40px;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px auto 0;
+    padding: 10px;
+    box-shadow: 0 10px 25px black;
+    justify-content: space-between;
+    
+}
+.inp{
+      border: none;
+}
+.divider {
+  width: 1px;
+  height: 40px;
+  background: #ddd;
+}
+.h6{
+    margin-left: 26px;
+    font-size: 9.5px;
+    margin-top: 2px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.opt{
+    margin-left: 30px;
+    margin-top: -12px;
+    border: none;
+    
+}
+.opt:hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.user{
+    margin-top: 20px;
+    width: 35px;
+    border-radius: 14px;
+}
+.user:hover{
+    border-color: #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.gift{
+    margin-top: 25px;
+    width: 30px;
+}
+.inter{
+    margin-top: 25px;
+    width: 30px;
+}
+.icons{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 800px;
+    gap: 30px;
+ 
+}
+.in{
+    justify-content: space-between;
+    flex-direction: column;
+}
+.search{
+    width: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: green;
+    height: 45px;
+    width:45px ;
+    border: none;
+    border-radius: 50%;
+}
+.tele{
+    width: 30px;
+ 
+}
+.air{
+    width: 30px;
+}
+.test{
+   display: flex;
+   justify-self:center;
+   gap: 50px;
+   padding-top: 40px;
+   
+}
+.star{
+    width: 30px;
+}
+.calen{
+    width: 30px;
+}
+.h11{
+    text-align: center;
+}
+.bg1{
+    display: flex;
+    justify-self: center;
+   background-color: rgb(226, 200, 250);
+   width: 800px;
+   border-radius: 30px;
+   text-align: center;
+   padding-left: 150px;
+}
+
+
+.butt{
+
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    width: 200px;
+   padding: 8px;
+     
+}
+.item{
+    text-align: center;
+    max-width: 220px;
+}
+.item img{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+.item h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.item p{
+    font-size: 14PX;
+    color: black;
+    line-height: 1.5;
+}
+.h{
+    color: rgb(148, 143, 143);
+    text-align: center;
+}
+.hh{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.imagg{
+    position: relative;
+    height: 40vh;
+    width: 30%;
+     background-image: url('WashingtonDC.webp');
+     background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+    /* background-image: url(lasvegas.PNG) ; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.imagg::after{
+
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+   
+
+}
+
+.imagg:hover::after{
+
+  
+    background: rgba(0, 0, 0, 0);
+
+}
+
+.imagg h1{
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+ .search-box {
+  display: flex;
+  align-items: flex-end;
+  gap: 60px;
+  background: white;
+  padding: 15px;
+  border-radius: 40px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.field input {
+  border: none;
+  outline: none;
+  width: 250px;
+  font-size: 14px;
+}
+
+.search-box button {
+  border: none;
+  background: green;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hj{
+    background-color: #EBFAF7;
+    height: 150px;
+    text-align: center;
+
+}
